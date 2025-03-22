@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>589f2c8b-a867-4655-9e4c-c880537056be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.FS-Pagination-Button-next > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing:'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>5368a4b6-e625-48f5-8201-927f9c886e0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>dd0080c0-1b4a-4ead-9ea4-9ac8b1d265d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>fbebfe5b-12f3-46f3-9eb7-727135c01792</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>d2b0e5fe-c318-4032-a4ad-4f3e3467272f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 16 16</value>
+      <webElementGuid>0d4fbed4-999e-4ac3-930f-30d741d3296e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>93aa1343-291f-4fbb-aac3-b254c80126ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>372eda39-83ea-496f-8305-7cde622fa625</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>ba2704da-b39f-4538-8d88-0d119b05760b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scflightschedule&quot;)/div[@class=&quot;FS-wrapper-container sqpp-master-container&quot;]/span[1]/div[2]/div[@class=&quot;FlightScheduleResultContainer&quot;]/div[@class=&quot;FlightScheduleResultTableContainer&quot;]/div[@class=&quot;FlightScheduleResultHeaderTable&quot;]/table[@class=&quot;FlightScheduleResultTable&quot;]/tbody[1]/tr[11]/td[@class=&quot;FS-PaginationContainer&quot;]/span[@class=&quot;FS-Pagination&quot;]/div[@class=&quot;FS-Pagination-actions&quot;]/span[@class=&quot;FS-Pagination-Buttons-container&quot;]/button[@class=&quot;FS-Pagination-Button-next&quot;]/svg[1]</value>
+      <webElementGuid>d98b8310-eafd-4b1b-a113-484fc3d4e8b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing:'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>ee89ea7e-50b5-40ad-a576-1b773e5e3169</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIA Cargo Office'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>6d8eb0e4-492d-4493-9f1f-9ff19230a6b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRINT / DOWNLOAD SCHEDULES'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>ca7dfd56-0894-4639-8df1-0d0d6cb6a76e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
