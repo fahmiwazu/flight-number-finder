@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dd04355a-340b-4df1-a946-67ff368bd244</webElementGuid>
+      <webElementGuid>b985c904-c020-4d1a-95f8-ec1758b535bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c4d6506b-99cc-4998-be0f-e45551d46233</webElementGuid>
+      <webElementGuid>d2e1d536-51d4-4459-8d9c-b1fd7ca6514d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_btn__Dp-TQ index_sqpp-primary-download-btn__L16Sa btn btn-secondary</value>
-      <webElementGuid>615024d7-6cd6-487d-aabc-345648d4350f</webElementGuid>
+      <webElementGuid>76cc9096-1855-4486-aa2e-a28b86b11200</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SEARCH</value>
-      <webElementGuid>497713ef-579f-4661-881a-99f076def8da</webElementGuid>
+      <webElementGuid>4408fb5d-4faf-4c7d-8489-e535734b5d5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;scflightschedule&quot;)/div[@class=&quot;FS-wrapper-container sqpp-master-container&quot;]/span[1]/div[1]/div[@class=&quot;flightSearch large-screen-size&quot;]/div[@class=&quot;flightSearchContainer&quot;]/div[@class=&quot;flightSearchFilterContainer&quot;]/div[@class=&quot;fsSearchActions&quot;]/span[@class=&quot;index_sqpp-primary-download-btn-container__FaCQe&quot;]/button[@class=&quot;theme-module_btn__Dp-TQ index_sqpp-primary-download-btn__L16Sa btn btn-secondary&quot;]</value>
-      <webElementGuid>9b84fc01-1feb-4ab5-93ef-a3be9e7f3be9</webElementGuid>
+      <webElementGuid>6adf6792-6691-46b9-9c9b-b8665b520550</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>c257f73d-ee39-493d-8fcf-e3fcb67413b5</webElementGuid>
+      <webElementGuid>bed459f0-9b5b-4b1a-8638-34b6b7733347</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//flight-schedule[@id='scflightschedule']/div/span/div/div/div/div[2]/div[2]/span/button</value>
-      <webElementGuid>dc71596c-d61f-4f48-ae0f-c432bd7e2c8b</webElementGuid>
+      <webElementGuid>fbedef59-49c2-4e89-a477-4b5374ca4130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset / New Search'])[1]/preceding::button[1]</value>
-      <webElementGuid>e46792ca-4bc0-469b-ba4f-642e595ca942</webElementGuid>
+      <webElementGuid>457f0ae3-9e76-4080-97b8-84d4cf7081c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Need an overview for a flight or route? Download eTimetable'])[1]/preceding::button[1]</value>
-      <webElementGuid>71d69564-d662-4d63-b0eb-6452eebbbc10</webElementGuid>
+      <webElementGuid>aaace16a-b18e-4f60-85d7-aa7adabcad69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='SEARCH']/parent::*</value>
-      <webElementGuid>fa4e2841-d86a-4922-ac2c-43efe5a8e4c6</webElementGuid>
+      <webElementGuid>3eb0b2e7-c8ab-49b4-b309-182146993306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
-      <webElementGuid>8dd559c8-8960-43be-922a-92f372d081bc</webElementGuid>
+      <webElementGuid>e5d6f8b5-5579-4c8d-abaf-e7a2c7646987</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'SEARCH' or . = 'SEARCH')]</value>
-      <webElementGuid>953d9238-2839-408c-a440-f35536d9b9cd</webElementGuid>
+      <webElementGuid>86b50915-f482-4367-b1f7-4f8c51bd748f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

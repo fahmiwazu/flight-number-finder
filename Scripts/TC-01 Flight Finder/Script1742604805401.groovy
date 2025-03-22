@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -78,27 +79,44 @@ boolean textFound = false
 
 String FlightNumber = 'SQ0211'
 
-
 // Loop to search text on multiple pages
-while (!textFound) {
-	// Check if text "SQ0211" is present on the current page
-	if (WebUI.verifyTextPresent(FlightNumber, false, FailureHandling.OPTIONAL)) {
-		WebUI.comment('Flight Number found on this page.')
-		
-		textFound = true
-	} else {
-		WebUI.comment('Flight Number not found, going to the next page...')
-		TestObject nextPageButton = findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/svg')
-		
-		if (WebUI.verifyElementPresent(nextPageButton, 5, FailureHandling.OPTIONAL)) {
-			WebUI.click(nextPageButton)
-			WebUI.delay(3)  // Wait for the new page to load
-		} else {
-			WebUI.comment('No Next Page button found. Stopping the search.')
-			break
-		}
-	}
+while (!(textFound)) {
+    // Check if text "SQ0211" is present on the current page
+    if (WebUI.verifyTextPresent(FlightNumber, false, FailureHandling.OPTIONAL)) {
+        WebUI.comment('Flight Number found on this page.')
+
+        textFound = true // Wait for the new page to load
+    } else {
+        WebUI.comment('Flight Number not found, going to the next page...')
+
+        TestObject nextPageButton = findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/svg')
+
+        if (WebUI.verifyElementPresent(nextPageButton, 5, FailureHandling.OPTIONAL)) {
+            WebUI.click(nextPageButton)
+
+            WebUI.delay(3)
+        } else {
+            WebUI.comment('No Next Page button found. Stopping the search.')
+
+            break
+        }
+    }
 }
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/span_Reset  New Search'))
+
+WebUI.click(findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/span_Reset  New Search'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/input_Flight Schedule_origin'), 
+    'SIN')
+
+WebUI.setText(findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/input_Origin_destination'), 
+    'SYD')
+
+WebUI.click(findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/button_SEARCH'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Flight Schedule  Singapore Airlines Ca_b65577/div_Please fill in missing field(s) to proceed'), 
+    0)
 
 WebUI.closeBrowser()
 
